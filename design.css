@@ -67,8 +67,106 @@ nav{
 
     }
 
-    a.active,a:hover{
+    .categories li a:hover{
         background: lightgreen;
         transition: .5s;
     }
+
+main{
+    width: 640px;
+    padding-bottom: 5px;
+   
+}
+
+    .articulo{
+        border: 1px solid #DDDDDD;
+        padding: 10px;
+        margin-bottom: 10px;
+        height: 470px;
+        text-align: center;
+    }
     
+    .articulo h4{
+        font-size:xx-large;
+        margin-bottom: 5px;
+    }
+       
+    .articulo .detalles{
+        font-size: 0.9em;
+        margin-bottom: 15px;
+        color: #888888;
+    }
+    .articulo .detalles a{
+            color: #888888;
+            text-decoration: none;
+        }
+        .articulo .detalles a:hover{
+            color: #003366;
+            text-decoration: underline;
+        }
+    .articulo .imagen-sga{
+        border: 1px solid #dddddd;
+        padding: 5px;
+        float: left;
+        margin: 0 10px 10px 0;
+    }
+    .articulo .imagen-sga a{
+            display: block;
+            overflow: hidden;
+        }
+        
+    .articulo p{
+        line-height: 1.5em;
+        margin-bottom: 1px;
+    }
+    .articulo .equipo{
+        clear: both;
+        font-size: 0.9em;
+        color: #888888;
+        margin-bottom: 0;
+    }
+    
+footer{
+    text-align: center;
+    height: 200px;
+    
+}
+
+    .top{
+        background-color:burlywood;
+        height: 85px;
+    }
+
+    .mid{
+        height: 85px;
+        background-color:brown;
+        justify-content: baseline;
+    }
+
+    .mid .cat-foot{
+        text-align: center;
+    }
+
+    .mid .cat-foot li{
+        display: inline-block;
+        line-height: 80px;
+        margin: 0px;
+        text-align: center;
+    }
+
+    .mid .cat-foot li a{
+        font: courier;
+        color:black;
+        font-size: 16px;
+        text-transform: uppercase;
+        border-radius: 1px;
+        padding: 18px;
+        text-align: center;
+
+
+    }
+
+    .end{
+        height: 50px;
+        background-color:brown;
+    }
