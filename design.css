@@ -4,13 +4,14 @@
     box-sizing: border-box;
 }
 body{
-    background-color:darkslategray;
+    background-color:lightgray;
   
 }
 
 header{
     text-align: center;
     height: 200px;
+    align-items: center;
     
 }
 
@@ -28,31 +29,46 @@ header{
     }
 
 nav{
-    height: 80px;
-    background-color:rosybrown;
+    display:flex;
+    height: 65px;
+    background-color:darkgray;
+    align-items: center;
+    justify-content: space-around;
 
 }
-    nav ul{
+    .logo-izq{
+        text-align: left;
+    }
+
+    .logo-der{
+        text-align: right;
+    }
+
+    .categories{
         text-align: center;
     }
 
-    nav ul li{
+    .categories li{
         display: inline-block;
         line-height: 80px;
         margin: 0px;
-        
-
+        text-align: center;
     }
 
-    nav ul li a{
-        color: lavender;
+    .categories li a{
+        font: courier;
+        color:green;
         font-size: 16px;
         text-transform: uppercase;
         border-radius: 1px;
         padding: 18px;
+        text-align: center;
+
 
     }
+
     a.active,a:hover{
-        background: lightblue;
+        background: lightgreen;
         transition: .5s;
     }
+    
