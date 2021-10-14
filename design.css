@@ -56,15 +56,13 @@ nav{
     }
 
     .categories li a{
-        font: courier;
+        font:italic;
         color:green;
         font-size: 16px;
         text-transform: uppercase;
         border-radius: 1px;
         padding: 18px;
         text-align: center;
-
-
     }
 
     .categories li a:hover{
@@ -73,20 +71,28 @@ nav{
     }
 
 main{
-    width: 640px;
-    padding-bottom: 5px;
-   
+    
+    
 }
+
+    #port{
+        padding-bottom: 5px;
+        margin-left: 70px;
+        margin-right: 70px;
+        display: flex;
+    }
 
     .articulo{
         border: 1px solid #DDDDDD;
         padding: 10px;
         margin-bottom: 10px;
         height: 470px;
+        width: 640px;
         text-align: center;
+        background-color: whitesmoke;
     }
     
-    .articulo h4{
+    .articulo h1{
         font-size:xx-large;
         margin-bottom: 5px;
     }
@@ -110,10 +116,6 @@ main{
         float: left;
         margin: 0 10px 10px 0;
     }
-    .articulo .imagen-sga a{
-            display: block;
-            overflow: hidden;
-        }
         
     .articulo p{
         line-height: 1.5em;
@@ -124,6 +126,65 @@ main{
         font-size: 0.9em;
         color: #888888;
         margin-bottom: 0;
+    }
+
+    .noticia{
+        border: 1px solid #DDDDDD;
+        padding: 10px;
+        margin-bottom: 10px;
+        height: 470px;
+        width: 640px;
+        text-align: center;
+        background-color: whitesmoke;
+    }
+    
+    .noticia h1{
+        font-size:xx-large;
+        margin-bottom: 5px;
+    }
+       
+    .noticia .detalles{
+        font-size: 0.9em;
+        margin-bottom: 15px;
+        color: #888888;
+    }
+    .noticia .detalles a{
+            color: #888888;
+            text-decoration: none;
+        }
+        .noticia .detalles a:hover{
+            color: #003366;
+            text-decoration: underline;
+        }
+    .noticia .imagen-bb{
+        border: 1px solid #dddddd;
+        padding: 5px;
+        float: left;
+        margin: 0 10px 10px 0;
+    }
+        
+    .noticia p{
+        line-height: 1.5em;
+        margin-bottom: 1px;
+    }
+    .noticia .equipo{
+        clear: both;
+        font-size: 0.9em;
+        color: #888888;
+        margin-bottom: 0;
+    }
+
+    #port .anuncio{
+        height: 900px;
+        width: 800px;
+        text-align: right;
+    }
+
+    #port .anuncio .imagen-coca{
+        border: 1px solid #dddddd;
+        padding: 5px;
+        float: right;
+        margin: 0 10px 10px 0;
     }
     
 footer{
@@ -140,7 +201,6 @@ footer{
     .mid{
         height: 85px;
         background-color:brown;
-        justify-content: baseline;
     }
 
     .mid .cat-foot{
@@ -155,18 +215,97 @@ footer{
     }
 
     .mid .cat-foot li a{
-        font: courier;
         color:black;
         font-size: 16px;
         text-transform: uppercase;
         border-radius: 1px;
         padding: 18px;
         text-align: center;
-
-
     }
 
     .end{
         height: 50px;
         background-color:brown;
+    }
+
+    #estadis{
+        height: 1400px;
+        width: 1700px;
+        background-color: whitesmoke;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 15px;
+
+    }
+
+    .titulo-clasi{
+        margin-top: 15px;
+        padding: 10px;
+        height: 60px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .clasi{
+        margin-left: 300px;
+        width: 60%;
+        text-align: center;
+        background-color: blanchedalmond;
+    }
+
+    .clasi table, th, td{
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    .clasi  th, td{
+        padding: 10px;
+    }
+
+    .clasi th{
+        background-color: darksalmon;
+    }
+
+    .clasi a{
+        color: black;
+        text-decoration: none;
+        border-radius: 1px;
+
+    }
+
+    #estadis .anuncio{
+        padding: 20px;
+        text-align: center;
+    }
+
+    .titulo-lideres{
+        height: 60px;
+        text-align: center;
+    }
+
+    .lideres{
+        margin-left: 300px;
+        width: 60%;
+        text-align: center;
+        background-color: blanchedalmond;
+    }
+
+    .lideres table, th, td{
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    .lideres  th, td{
+        padding: 10px;
+    }
+
+    .lideres th{
+        background-color: darksalmon;
+    }
+
+    .lideres a{
+        color: black;
+        text-decoration: none;
+        border-radius: 1px;
+
     }
